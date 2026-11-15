@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://drh2fx0icx4vq"]
+
+[ext_resource type="PackedScene" uid="uid://evpjmg1143b" path="res://escenas/paredes.tscn" id="1_ekxa8"]
+[ext_resource type="Script" uid="uid://bfutjmp2pdii3" path="res://escenas/main.gd" id="1_nc8t8"]
+[ext_resource type="PackedScene" uid="uid://dwoq6whpafu2m" path="res://escenas/asteroides.tscn" id="2_8i4r6"]
+[ext_resource type="PackedScene" uid="uid://wyfwc8pu1wf" path="res://escenas/Nave.tscn" id="2_nc8t8"]
+
+[node name="Main" type="Node2D" unique_id=2014847923]
+position = Vector2(-2, -5)
+script = ExtResource("1_nc8t8")
+asteroide_escena = ExtResource("2_8i4r6")
+
+[node name="paredes" parent="." unique_id=1020643332 instance=ExtResource("1_ekxa8")]
+
+[node name="CharacterBody2D" parent="." unique_id=1096393671 instance=ExtResource("2_nc8t8")]
+position = Vector2(565, 474)
+
+[node name="Timer" type="Timer" parent="." unique_id=1107380146]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

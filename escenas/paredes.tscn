@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://evpjmg1143b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_isnrb"]
+size = Vector2(1152, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sp74k"]
+size = Vector2(1152, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gb5xk"]
+size = Vector2(20, 648)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fnnp2"]
+size = Vector2(20, 648)
+
+[node name="paredes" type="Node2D" unique_id=1020643332]
+
+[node name="PARED ARRIBA" type="StaticBody2D" parent="." unique_id=92747038]
+position = Vector2(576, -10)
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PARED ARRIBA" unique_id=592954718]
+shape = SubResource("RectangleShape2D_isnrb")
+
+[node name="PARED ABAJO" type="StaticBody2D" parent="." unique_id=1133849937]
+position = Vector2(576, 658)
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PARED ABAJO" unique_id=1832311235]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_sp74k")
+
+[node name="PARED IZQUIERDA" type="StaticBody2D" parent="." unique_id=684887576]
+position = Vector2(-10, 324)
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PARED IZQUIERDA" unique_id=393785490]
+shape = SubResource("RectangleShape2D_gb5xk")
+
+[node name="PARED DERECHA" type="StaticBody2D" parent="." unique_id=1048356318]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PARED DERECHA" unique_id=1832243036]
+position = Vector2(1162, 324)
+shape = SubResource("RectangleShape2D_fnnp2")
