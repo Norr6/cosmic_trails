@@ -1,4 +1,5 @@
-[Watch a video]()
+<video src="videos/introduction.mp4" controls width="600">
+</video>
 
 
 ## Cosmic trails
