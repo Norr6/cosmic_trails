@@ -1,4 +1,5 @@
-[Watch a video](WhatsApp Video 2026-11-15 at 3.58.44 PM.mp4)
+<video src="videos/introduction.mp4" controls width="600">
+</video>
 
 
 ## Cosmic trails
