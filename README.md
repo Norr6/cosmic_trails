@@ -16,3 +16,6 @@ As our first game project, we've been learning as we go, dividing tasks, solving
 This project is our first step into game development. We wanted to challenge ourselves, try something new, and see what we could create together in a hackathon.
 
 Thanks for checking out Cosmic Trails!
+
+##Try it out
+https://whitmoresydney3.itch.io/cosmic-trails
