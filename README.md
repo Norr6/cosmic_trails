@@ -17,4 +17,5 @@ We had a great time bringing this idea to life!
 There were plenty of things to figure out along the way, but we learned a lot, shared ideas, and enjoyed the process. We’re happy with how everything came together!
 
 ##Try it out
+
 https://whitmoresydney3.itch.io/cosmic-trails
