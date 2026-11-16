@@ -3,13 +3,11 @@
 
 Cosmic Trails is a simple space game where you control a spaceship and destroy incoming asteroids.
 
-We created this game during a hack club haven 2026 as a team of three high school students. None of us had experience making video games before, but we wanted to try something new, learn along the way, and create something together.
+We created this game during hack club haven 2026 as a team of three high school students. None of us had experience making video games before, but we wanted to try something new, learn along the way, and create something together.
 
-## Our Experience
+## Gameplay
 
-Beyond the game itself, Cosmic Trails represents our curiosity, teamwork, and willingness to step outside our comfort zones.
-
-It may be our first game, but hopefully not our last!
+Hop into your spaceship, take on some asteroids, and see how long you can last in space! :)
 
 ## A little about us
 
